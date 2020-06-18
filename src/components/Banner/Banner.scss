@@ -1,0 +1,39 @@
+$pink-light: #f0baba;
+$pink-medium: #f06060;
+$blue-light: #83ace9;
+$blue-medium: #4b7ac0;
+
+.banner-container {
+    position: absolute;
+    max-width: 700px;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+@media (max-width: 576px) {
+    .banner-container {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.banner-button {
+    max-width: 330px;
+    // flex-grow: 1;
+}
+.banner-button-pregnancy {
+    background-color: $pink-light;
+    border-color: $pink-light;
+}
+.banner-button-pregnancy:hover {
+    background-color: $pink-medium;
+    border-color: $pink-medium;
+}
+.banner-button-baby {
+    background-color: $blue-light;
+    border-color: $blue-light;
+}
+.banner-button-baby:hover {
+    background-color: $blue-medium;
+    border-color: $blue-medium;
+}

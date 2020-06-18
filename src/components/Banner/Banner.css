@@ -1,0 +1,39 @@
+.banner-container {
+  position: absolute;
+  max-width: 700px;
+  bottom: 14px;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 576px) {
+  .banner-container {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.banner-button {
+  max-width: 330px;
+}
+
+.banner-button-pregnancy {
+  background-color: #f0baba;
+  border-color: #f0baba;
+}
+
+.banner-button-pregnancy:hover {
+  background-color: #f06060;
+  border-color: #f06060;
+}
+
+.banner-button-baby {
+  background-color: #83ace9;
+  border-color: #83ace9;
+}
+
+.banner-button-baby:hover {
+  background-color: #4b7ac0;
+  border-color: #4b7ac0;
+}
+/*# sourceMappingURL=Banner.css.map */
