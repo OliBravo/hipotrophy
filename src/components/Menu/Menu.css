@@ -1,0 +1,44 @@
+.menu-nav-item {
+  text-align: center;
+  color: #5ec587 !important;
+  font-weight: 700;
+}
+
+.menu-nav-item:hover {
+  color: #2fd772 !important;
+}
+
+.menu-search {
+  margin: auto;
+}
+
+.menu-search .menu-search-input {
+  border-radius: 15px 0 0 15px;
+}
+
+.menu-search .menu-search-button {
+  border-left: 0;
+  border-color: #ced4da;
+  border-radius: 0 15px 15px 0;
+  background-color: white;
+}
+
+.menu-mobile-only {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .menu-nav-item {
+    color: grey !important;
+  }
+  .menu-nav-item:hover {
+    color: black !important;
+  }
+  .menu-search {
+    width: 80% !important;
+  }
+  .menu-mobile-only {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=Menu.css.map */
